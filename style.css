@@ -1,9 +1,14 @@
 *{
     margin: 0;
     padding:0;
-    font-family: 'Babylonica', cursive;
+   
+
+}
+body{
+     font-family: 'Babylonica', cursive;
 font-family: 'Open Sans', sans-serif;
-margin-top: 10px;
+margin: 20px;
+
 }
 nav{
     display:flex;
@@ -31,11 +36,27 @@ nav a{
     color: #FD6E0A;
     
 }
-nav button{
+
+.btn-primary{
     color:white;
     background-color: #FD6E0A;
     width: 100px;
     padding: 10px; 
      border:none;
     border-radius: 5px;
+}
+/* profile related style */
+
+header{
+    background-color:#FFF8F3;;
+}
+.banner{
+display:flex;
+align-items: center;
+}
+.banner-content{
+
+}
+.profile-pic{
+    width: 500px;
 }
